@@ -1,0 +1,192 @@
+
+
+
+
+
+
+
+                              *****************************************
+
+                                SUPER NUMERICAL ELECTROMAGNETICS CODE  
+
+                              *****************************************
+
+
+
+
+                                    - - - - COMMENTS - - - -
+
+
+                         Computer generated SuperNEC file
+                         The model has : 2 segments
+                                         0 plates
+                                         0 cylinders
+                                         no symmetry
+                         
+
+
+
+
+                                - - - STRUCTURE SPECIFICATION - - -
+
+                                    COORDINATES MUST BE INPUT IN
+                                    METERS OR BE SCALED TO METERS
+                                    BEFORE STRUCTURE INPUT IS ENDED
+
+
+ WIRE                                                                               NO. OF    FIRST  LAST     TAG
+ NO.        X1         Y1         Z1          X2         Y2         Z2      RADIUS   SEG.     SEG.   SEG.     NO.
+    1   -1.93500   -1.00000    0.00000    -1.90500   -1.00000    0.00000    0.00100      1        1     1       1 
+    2   -1.92000   -1.01500    0.01000    -1.92000   -0.98500    0.01000    0.00100      1        2     2       2 
+
+
+***** DATA CARD NO.  1   EK  -1     0     0     0  0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+***** DATA CARD NO.  2   KH   0     0     0     0  1.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+***** DATA CARD NO.  3   PT  -2    -1    -1    -1  0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+***** DATA CARD NO.  4   PQ   0     0     0     0  0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+***** DATA CARD NO.  5   FR   0     1     0     0  2.99800E+002 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+***** DATA CARD NO.  6   EX   0     1     1     0  1.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+***** DATA CARD NO.  7   EX   0     2     1     0  1.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+***** DATA CARD NO.  8   XQ   0     0     0     0  0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+
+	 ----------------------------- PLATE CONNECTIONS ------------------------ 
+
+
+	 ------------------------------------------------------------------------ 
+
+
+    TOTAL SEGMENTS USED=    2     NO. SEG. IN A SYMMETRIC CELL=    2     SYMMETRY FLAG=  0
+
+
+        - MULTIPLE WIRE JUNCTIONS -
+JUNCTION    SEGMENTS  (- FOR END 1, + FOR END 2)
+ NONE
+
+
+
+                                - - - - SEGMENTATION DATA - - - -
+
+                                       COORDINATES IN METERS
+
+                        I+ AND I- INDICATE THE SEGMENTS BEFORE AND AFTER I
+
+
+ SEG.   COORDINATES OF SEG. CENTER     SEG.     ORIENTATION ANGLES    WIRE    CONNECTION DATA   TAG
+ NO.       X         Y         Z       LENGTH     ALPHA     BETA      RADIUS    I-   I    I+    NO.
+    1  -1.92000  -1.00000   0.00000   0.03000    0.00000   0.00000   0.00100     0    1    0      1
+    2  -1.92000  -1.00000   0.01000   0.03000    0.00000  90.00000   0.00100     0    2    0      2
+
+
+
+
+
+
+
+
+
+
+                                    - - - - PLATE DATA - - - -
+
+                                       COORDINATES IN METERS
+
+
+
+
+
+                                  - - - - CYLINDER DATA - - - -
+
+                                       COORDINATES IN METERS
+
+
+
+
+
+
+
+
+
+                                - - - - - - FREQUENCY - - - - - -
+
+                                   FREQUENCY= 2.9980E+002 MHZ 
+                                   WAVELENGTH= 1.0000E+000 METERS 
+
+
+
+
+                   APPROXIMATE INTEGRATION EMPLOYED FOR SEGMENTS MORE THAN    1.000 WAVELENGTHS APART
+
+
+
+                              - - - STRUCTURE IMPEDANCE LOADING - - -
+
+                                  THIS STRUCTURE IS NOT LOADED
+
+
+
+                                 - - - ANTENNA ENVIRONMENT - - -
+
+                                           FREE SPACE
+
+
+
+                               - - - MATRIX TIMING - - -
+
+                       FILL=    0.000 SEC.,  FACTOR=    0.000 SEC.
+
+
+
+                                         - - - ANTENNA INPUT PARAMETERS - - -
+
+  TAG   SEG.    VOLTAGE (VOLTS)         CURRENT (AMPS)         IMPEDANCE (OHMS)        ADMITTANCE (MHOS)      POWER
+  NO.   NO.    REAL        IMAG.       REAL        IMAG.       REAL        IMAG.       REAL        IMAG.     (WATTS)
+    1     1 1.0000E+000 0.0000E+000 1.4555E-008 1.7270E-004 4.8804E-001-5.7905E+003 1.4555E-008 1.7270E-004 7.2777E-009 
+    2     2 1.0000E+000 0.0000E+000 1.4555E-008 1.7270E-004 4.8804E-001-5.7905E+003 1.4555E-008 1.7270E-004 7.2777E-009 
+
+
+
+                            - - - CURRENTS AND LOCATION - - -
+
+                                DISTANCES IN WAVELENGTHS
+
+
+ SEG.  TAG    COORD. OF SEG. CENTER     SEG.            - - - CURRENT (AMPS) - - -
+ NO.   NO.     X        Y        Z      LENGTH     REAL        IMAG.       MAG.        PHASE
+    1    1  -1.9200  -1.0000   0.0000  0.03000   1.456E-008  1.727E-004  1.727E-004    89.995 
+    2    2  -1.9200  -1.0000   0.0100  0.03000   1.456E-008  1.727E-004  1.727E-004    89.995 
+
+
+
+                                 - - - CHARGE DENSITIES - - -
+
+                                   DISTANCES IN WAVELENGTHS
+
+
+ SEG.  TAG    COORD. OF SEG. CENTER     SEG.          CHARGE DENSITY (COULOMBS/METER)
+ NO.   NO.     X        Y        Z      LENGTH     REAL        IMAG.       MAG.        PHASE
+    1    1  -1.9200  -1.0000   0.0000  0.03000  -0.000E+000  0.000E+000  0.000E+000    0.000 
+    2    2  -1.9200  -1.0000   0.0100  0.03000  -0.000E+000  0.000E+000  0.000E+000    0.000 
+
+
+
+
+
+                                       - - - POWER BUDGET - - -
+
+                                          INPUT POWER   = 1.4555E-008 WATTS 
+                                          RADIATED POWER= 1.4555E-008 WATTS 
+                                          STRUCTURE LOSS= 0.0000E+000 WATTS 
+                                          NETWORK LOSS  = 0.0000E+000 WATTS 
+                                          EFFICIENCY    = 100.00 PERCENT
+
+
+
+
+
+
+***** DATA CARD NO.  9   EN   0     0     0     0  0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000 0.00000E+000   
+
+
+
+	******************* Simulation by SuperNec *********************** 
+
+ RUN TIME =      0.000 SEC.

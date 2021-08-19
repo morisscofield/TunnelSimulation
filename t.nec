@@ -1,0 +1,18 @@
+CM Computer generated SuperNEC file
+CM The model has : 2 segments
+CM                 0 plates
+CM                 0 cylinders
+CM                 no symmetry
+CE 
+GW  1    1 -1.935000 -1.000000  0.000000 -1.905000 -1.000000  0.000000  0.001000
+GW  2    1 -1.920000 -1.015000  0.010000 -1.920000 -0.985000  0.010000  0.001000
+GE  0
+EK -1
+KH  0    0    0    0  1.000000
+PT -2   -1   -1   -1
+PQ  0
+FR  0    1    0    0  299.8000
+EX  0    1    1    0  1.000000  0.000000
+EX  0    2    1    0  1.000000  0.000000
+XQ 
+EN 
